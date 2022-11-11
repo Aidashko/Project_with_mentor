@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "title": "QWDS",
+      "price": "dq",
+      "descr": "REW",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "id": 1
+    },
+    {
+      "title": "qwe",
+      "price": "qwer",
+      "descr": "qwerty",
+      "image": "https://www.gannett-cdn.com/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG",
+      "id": 2
+    },
+    {
+      "title": "shu",
+      "price": "shur",
+      "descr": "shura",
+      "image": "https://images.unsplash.com/photo-1509043759401-136742328bb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
+      "id": 3
+    },
+    {
+      "title": "qwer",
+      "price": "sdf",
+      "descr": "sdf",
+      "image": "https://photographylife.com/wp-content/uploads/2017/01/Best-of-2016-Nasim-Mansurov-20.jpg",
+      "id": 4
+    },
+    {
+      "title": "wqefr",
+      "price": "SDZFg",
+      "descr": "wde",
+      "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/9EE2/production/_120447604_5d0b76dc-2324-4b91-9584-d61fc95d87c2.jpg",
+      "id": 5
+    },
+    {
+      "title": "qew",
+      "price": "wqs",
+      "descr": "e",
+      "image": "https://www.nme.com/wp-content/uploads/2017/03/Stephen-King-696x442.png",
+      "id": 6
+    },
+    {
+      "title": "ewrg",
+      "price": "ewrg",
+      "descr": "efs",
+      "image": "https://s4.reutersmedia.net/resources/r/?m=02&d=20211029&t=2&i=1579603325&w=780&fh=&fw=&ll=&pl=&sq=&r=2021-10-29T223613Z_42247_MRPRC2SFQ97INDQ_RTRMADP_0_EGYPT-HERITAGE-MODERN-ART",
+      "id": 7
+    }
+  ]
+}
