@@ -1,5 +1,17 @@
 //? Апи для запросов
 let API = "http://localhost:8000/posts";
+let API_USERS = "http://localhost:8000/users";
+
+//! Registration + Auth
+let username = document.querySelector("#username");
+let password = document.querySelector("#password");
+let submit = document.querySelector("#submit");
+
+//! Registration / SIGN IN
+let account = document.querySelector("#account");
+
+//! CRUD
+
 let inp = document.querySelector(".inp");
 let title = document.querySelector("#title");
 let price = document.querySelector("#price");
@@ -28,6 +40,30 @@ let searchVal = "";
 
 //? Блок куда добавляется
 let list = document.querySelector("#products-list");
+
+//!Registration & Auth
+submit.addEventListener("click", async () => {
+  let obj = {
+    username: username.value,
+    password: password.value,
+  };
+
+  if (!obj.username.trim() || !obj.password.trim()) {
+    alert("Fill the form field!");
+    return;
+  }
+  console.log(obj);
+  await fetch(API_USERS, {
+    method: "POST",
+    body: JSON.stringify(obj),
+    headers: {
+      "Content-type": "application/json",
+    },
+  }).then(() => alert("User is undefined"));
+});
+
+//! Registration "SIGN IN"
+account.addEventListener("click", {});
 
 //! ADD - Обработчик событий на добавление
 btnAdd.addEventListener("click", async function () {
